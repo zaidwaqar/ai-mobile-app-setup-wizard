@@ -52,6 +52,14 @@ Inside the app, type:
 
 If you want the setup wizard to run inside an AI coding assistant (and persist across model/tool changes), use the repo wizard CLI.
 
+Fastest (recommended):
+
+```bash
+npm run vibe
+```
+
+Then type `/start` and follow the questions. When you type `/build` and it succeeds, the repo prints the build-phase instruction automatically.
+
 Start:
 
 ```bash

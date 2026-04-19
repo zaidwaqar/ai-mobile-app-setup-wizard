@@ -50,3 +50,19 @@ After the user completes `/build`, the AI tool should implement the app in this 
 - Run the wizard using the repo files as durable memory.
 - After `/build`, treat `project/build-brief.md` as the build spec and start coding the actual app.
 - If the user switches models/tools, always resume from `project/session/state.json` and `/continue`.
+
+## Recommended execution
+
+Run vibe mode so the repo drives the wizard loop and prints the build-phase instruction immediately after `/build`:
+
+```bash
+npm run vibe
+```
+
+Alternative (single-step CLI calls):
+
+```bash
+npm run wizard -- /start
+npm run wizard -- "<answer>"
+npm run wizard -- /continue
+```
