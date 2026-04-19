@@ -48,6 +48,30 @@ Inside the app, type:
 /start
 ```
 
+## AI-Agent Flow (Cursor / Claude / Codex)
+
+If you want the setup wizard to run inside an AI coding assistant (and persist across model/tool changes), use the repo wizard CLI.
+
+Start:
+
+```bash
+npm run wizard -- /start
+```
+
+Then for each user answer:
+
+```bash
+npm run wizard -- "<answer>"
+```
+
+Resume:
+
+```bash
+npm run wizard -- /continue
+```
+
+This updates `project/session/state.json` and the `project/*.md` files immediately, so switching agents does not restart the flow.
+
 ## Commands
 
 - `/start`
@@ -146,6 +170,8 @@ npm run test
 npm run lint
 npm run typecheck
 npm run export
+npm run wizard -- /start
+npm run wizard:interactive
 ```
 
 ## Tests Included
