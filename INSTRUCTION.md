@@ -1,6 +1,6 @@
 # AI Mobile App Setup Wizard Instructions
 
-This repository is a reusable Expo-based mobile app setup wizard for AI agents and human operators.
+This repository is a command-driven mobile app setup wizard for AI coding tools (Cursor, Claude, Codex, Windsurf).
 
 ## Main goal
 
@@ -9,6 +9,8 @@ Guide a beginner through describing a mobile app idea one question at a time, th
 - local-only
 - local-first with optional sync
 - full cloud backend
+
+After the user completes `/build`, the AI tool should implement the app in this repo based on `project/build-brief.md`.
 
 ## Commands
 
@@ -42,3 +44,9 @@ Guide a beginner through describing a mobile app idea one question at a time, th
 - `project/integrations.md`
 - `project/credentials-checklist.md`
 - `project/build-brief.md`
+
+## Vibe coding contract
+
+- Run the wizard using the repo files as durable memory.
+- After `/build`, treat `project/build-brief.md` as the build spec and start coding the actual app.
+- If the user switches models/tools, always resume from `project/session/state.json` and `/continue`.

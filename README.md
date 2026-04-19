@@ -72,6 +72,16 @@ npm run wizard -- /continue
 
 This updates `project/session/state.json` and the `project/*.md` files immediately, so switching agents does not restart the flow.
 
+## Vibe Coding (AI Builds The App)
+
+This repo is designed so the AI tool does the whole job (no human developer step):
+
+1. Use `/start` and answer the questions until the idea is complete.
+2. Run `/build` to generate `project/build-brief.md`.
+3. Tell your AI tool: "Implement the app described in `project/build-brief.md` inside this repo."
+
+If you switch from Codex to Cursor to Claude later, the new agent should read `project/session/state.json` and continue from `/continue` instead of starting over.
+
 ## Commands
 
 - `/start`
