@@ -10,7 +10,7 @@ Guide a beginner through describing a mobile app idea one question at a time, th
 - local-first with optional sync
 - full cloud backend
 
-After the user completes `/build`, the AI tool should implement the app in this repo based on `project/build-brief.md`.
+After the user completes `/build`, the repo produces `project/build-brief.md` and the AI tool should immediately implement the app in this repo based on that file.
 
 ## Commands
 
