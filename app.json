@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "AI Mobile App Setup Wizard",
+    "slug": "ai-mobile-app-setup-wizard",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.template.aimobilewizard"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f172a"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.template.aimobilewizard"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+# CODEX
+
+See `INSTRUCTION.md`.

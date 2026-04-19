@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "createdAt": "1970-01-01T00:00:00.000Z",
+  "updatedAt": "1970-01-01T00:00:00.000Z",
+  "currentMode": "product",
+  "activeScope": "all",
+  "lastCommand": null,
+  "awaitingStepId": null,
+  "lastQuestion": null,
+  "completedStepIds": [],
+  "answers": {},
+  "interruptions": 0,
+  "buildBriefReady": false,
+  "transcript": []
+}
